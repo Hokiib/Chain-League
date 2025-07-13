@@ -1,0 +1,28 @@
+# Backend files
+src/
+node_modules/
+package.json
+package-lock.json
+.env
+.env.local
+.env.production
+
+# Logs
+logs/
+*.log
+
+# Database
+*.sql
+*.db
+
+# Documentation
+*.md
+!README.md
+
+# Scripts
+*.sh
+test-*.js
+
+# Git
+.git/
+.gitignore 

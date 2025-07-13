@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1752371860082wv8tthtxd",
+    "username": "TestUser",
+    "walletAddress": "0x1234567890abcdef1234567890abcdef12345678",
+    "teamId": "barcelona",
+    "chzBalance": 1000,
+    "level": 1,
+    "xp": 0,
+    "subscriptionStatus": "basic",
+    "score": 0,
+    "team": "Barcelona",
+    "isAdmin": false,
+    "createdAt": 1752371860082
+  },
+  {
+    "id": "17523719919067j54d0099",
+    "username": "Bilzerto",
+    "walletAddress": "0x97d425d4061fd8a76a0b1887803697f84eacfcfb",
+    "teamId": "psg",
+    "chzBalance": 999.97,
+    "level": 8,
+    "xp": 0,
+    "subscriptionStatus": "basic",
+    "score": 0,
+    "team": "PSG",
+    "isAdmin": false,
+    "createdAt": 1752371991906
+  },
+  {
+    "id": "1752375510497wctegix2v",
+    "username": "yomama",
+    "walletAddress": "0x1234567890123456789012345678901234567890",
+    "teamId": "psg",
+    "chzBalance": 999.99,
+    "level": 1,
+    "xp": 0,
+    "subscriptionStatus": "basic",
+    "score": 0,
+    "team": "PSG",
+    "isAdmin": false,
+    "createdAt": 1752375510497
+  }
+]

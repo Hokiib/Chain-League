@@ -1,0 +1,49 @@
+{
+  "name": "chain-league-api",
+  "version": "1.0.0",
+  "description": "API backend pour le jeu Web3 multijoueur Chain League",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "dev:mock": "nodemon src/server-dev.js",
+    "test": "jest",
+    "migrate": "node src/database/migrations/run-migrations.js",
+    "seed": "node src/database/seeds/run-seeds.js"
+  },
+  "keywords": [
+    "web3",
+    "game",
+    "multijoueur",
+    "chiliz",
+    "blockchain"
+  ],
+  "author": "Chain League Team",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "ethers": "^6.15.0",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "express-validator": "^7.0.1",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "node-cron": "^3.0.3",
+    "pg": "^8.11.3",
+    "redis": "^4.6.10",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0",
+    "uuid": "^9.0.1",
+    "web3": "^4.2.2",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.2",
+    "supertest": "^6.3.3"
+  }
+}
